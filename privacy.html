@@ -21,7 +21,7 @@
 
 <h2>使う Google のデータと目的</h2>
 <ul>
-  <li><b>YouTube Data API</b>（権限：youtube.force-ssl）：運営者のチャンネルに動画をアップロードし、タイトル・説明・サムネイル・公開日時を設定します。運営者の動画の状態の確認と、公開設定の変更にも使います。</li>
+  <li><b>YouTube Data API</b>（権限：youtube.force-ssl）：運営者のチャンネルに動画をアップロードし、タイトル・説明・サムネイル・公開日時を設定します。運営者の動画の状態の確認、公開設定の変更、運営者のチャンネルの再生リストの作成と動画の追加にも使います。</li>
   <li><b>Gmail API</b>（権限：gmail.send）：運営者自身あてに作業の通知メールを送るためだけに使います。メールを読むことはありません。</li>
 </ul>
 
@@ -48,7 +48,8 @@
 <p>Video Upload Tool ("the tool") is a personal tool used only by its operator.</p>
 <ul>
   <li><b>YouTube Data API</b> (scope youtube.force-ssl): to upload videos to the operator's own channel, set their titles,
-    descriptions, thumbnails and publish times, check the status of the operator's videos and change their privacy settings.</li>
+    descriptions, thumbnails and publish times, check the status of the operator's videos, change their privacy settings,
+    and create playlists on the operator's channel and add videos to them.</li>
   <li><b>Gmail API</b> (scope gmail.send): only to send status emails to the operator. The tool does not read any email.</li>
   <li>Tokens are stored only on the operator's computer. Data received from Google is not sold or used for advertising,
     is not shared with third parties except where needed for the operator's own use of the tool, and is not used to train AI models.</li>
